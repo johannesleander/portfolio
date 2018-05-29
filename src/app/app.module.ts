@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 
 const appRoutes: Routes = [
-    { path: 'resume', component: ResumeComponent }
+    { path: '**', component: ResumeComponent },
 ]
 
 @NgModule({
