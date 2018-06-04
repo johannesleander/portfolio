@@ -4,9 +4,13 @@
 
 .container {
     margin: 0 auto;
+    display: grid;
 }
 
-.content {
-    max-width: 600px;
-    margin: 0 auto;
+.resume {
+    &-info {
+        &__name {
+            font-size: 3rem;
+        }
+    }
 }
